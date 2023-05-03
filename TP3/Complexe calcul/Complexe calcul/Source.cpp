@@ -25,10 +25,10 @@ int main()
 	O2.forme_polaire(a, b);
 
 	Object_complexe O3, O4,O5,O6;
-	std::cout <<std::endl<< "O1 + O2 = "; O3 = O2 + &O1;
-	std::cout << std::endl << "O1 - O2 = "; O4 = O2 - &O1;
-	std::cout << std::endl << "O1 / O2 = "; O5 = O2 / &O1;
-	std::cout << std::endl << "O1 * O2 = "; O6 = O2 * &O1;
+	std::cout <<std::endl<< "O2 + O1 = "; O3 = O2 + &O1;
+	std::cout << std::endl << "O2 - O1 = "; O4 = O2 - &O1;
+	std::cout << std::endl << "O2 / O1 = "; O5 = O2 / &O1;
+	std::cout << std::endl << "O2 * O1 = "; O6 = O2 * &O1;
 	
 
 
